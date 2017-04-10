@@ -19,4 +19,4 @@ Pike only covers use of `select` for a set number of channels. I implement a `se
 
 ## Google 4.0
 
-Pike gets to Google 3.0 in his talk, which uses two replicas of each type of his simulated Google search. On my machine, this version still regularly failed the 80ms timeout. So I created a version in `17_googleSearch.go` called `Google4` that uses 10 replicas and, not surprisingly, gets better performance than Pike's final version in the talk, sometimes sub-millisecond.
+Pike gets to Google 3.0 in his talk, which uses two replicas of each type of his simulated Google search. On my machine, this version still regularly failed the _80ms_ timeout. So I created a version in `17_googleSearch.go` called `Google4` that uses 10 replicas and, not surprisingly, gets better performance than Pike's final version in the talk, sometimes sub-millisecond.
