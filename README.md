@@ -17,6 +17,6 @@ In `11_sliceSelect.go`, I further iterate on this to have one just call the othe
 
 Pike only covers use of `select` for a set number of channels. I implement a `select` on an arbitrarily sized slice of input channels in `11_sliceSelect.go`.
 
-## Google 3.1
+## Google 3.5
 
-Pike gets to Google 3.0 in his talk, which uses two replicas of each type of his simulated Google search. On my machine, this version still regularly failed the _80ms_ timeout. So I created a version in `17_googleSearch.go` called `Google3_1` that uses 10 replicas and, not surprisingly, gets better performance than Pike's final version in the talk, sometimes sub-millisecond.
+Pike gets to Google 3.0 in his talk, which uses two replicas of each type of his simulated Google search. On my machine, this version still regularly failed the _80ms_ timeout. So I created a version in `17_googleSearch.go` called `Google3_5` that uses 10 replicas and, not surprisingly, gets better performance than Pike's final version in the talk, sometimes sub-millisecond.
