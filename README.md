@@ -5,7 +5,7 @@ I have refactored it for clarity when possible as well as implemented enhancemen
 
 # Enhancements
 
-## Variadic and Slice Versions of the `fanIn` Function
+## Variadic and Slice Versions of `fanIn` Function
 
 In the talk, Pike only covers a version of `fanIn` with a set number of two input channels. I implement two versions that can accept an arbitrary number of channels:
 * `variadicFanIn` in `07_variadicFanIn.go` 
