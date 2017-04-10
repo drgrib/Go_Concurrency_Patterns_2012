@@ -7,7 +7,11 @@ The code in this repository implements and orders all the major code examples re
 
 ## Variadic and Slice Versions of the `fanIn` Function
 
-In the talk, Pike only covers a version of `fanIn` with a set number (2) of input channels. I implement two versions that can accept an arbitrary number of channels, one that accepts variadic arguments (`07_variadicFanIn.go`) and another that accepts slices (`08_sliceFanIn.go`). In `11_sliceSelect.go`, I further iterate on this to have one just call the other.
+In the talk, Pike only covers a version of `fanIn` with a set number (2) of input channels. I implement two versions that can accept an arbitrary number of channels:
+* `variadicFanIn` in `07_variadicFanIn.go` 
+* `sliceFanIn` in `08_sliceFanIn.go`
+
+In `11_sliceSelect.go`, I further iterate on this to have one just call the other.
 
 ## Slice `select`
 
