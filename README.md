@@ -11,7 +11,7 @@ In the talk, Pike only covers a version of `fanIn` with a set number of two inpu
 * `variadicFanIn` in `07_variadicFanIn.go` 
 * `sliceFanIn` in `08_sliceFanIn.go`
 
-In `11_sliceSelect.go`, I further iterate on this to have one just call the other.
+In `11_sliceSelect.go`, I iterate on this to have one just call the other.
 
 ## Slice `select`
 
