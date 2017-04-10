@@ -1,4 +1,4 @@
-# Code for Google I/O 2012 - Go Concurrency Patterns
+# Code for _Google I/O 2012 - Go Concurrency Patterns_
 The code in this repository implements and orders all the major code examples referenced in Rob Pike's talk found [here](https://www.youtube.com/watch?v=f6kdp27TYZs).
 
 I have refactored it for clarity when possible as well as implemented enhancements.
