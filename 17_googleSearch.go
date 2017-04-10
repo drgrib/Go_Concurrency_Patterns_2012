@@ -128,7 +128,7 @@ func Google3(query string) (results []Result) {
 }
 
 // more replicas!
-func Google4(query string) (results []Result) {
+func Google3_1(query string) (results []Result) {
 	c := make(chan Result)
 	webs, images, videos := []Search{}, []Search{}, []Search{}
 	for i := 0; i < 10; i++ {
@@ -176,7 +176,7 @@ func main() {
 		Google2,
 		Google2_1,
 		Google3,
-		Google4,
+		Google3_1,
 	}
 	for _, g := range googles {
 		runGoogle(g)
